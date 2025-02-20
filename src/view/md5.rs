@@ -1,10 +1,10 @@
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 
 #[component]
 pub fn Md5() -> impl IntoView {
-    let (data, set_data) = create_signal("".to_string());
-    let (result, set_result) = create_signal("".to_string());
+    let (data, set_data) = signal("".to_string());
+    let (result, set_result) = signal("".to_string());
 
     let input_data = move |ev| {
         set_data.set(event_target_value(&ev));
@@ -35,7 +35,7 @@ pub fn Md5() -> impl IntoView {
             <button on:click=compute type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">计算</button>
         </div>
         <label for="result" class="block mb-2 text-sm font-medium text-gray-900">结果</label>
-        <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500">{result}</textarea>
+        <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500" prop:value=result></textarea>
         </section>
     }
 }

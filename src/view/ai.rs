@@ -162,7 +162,7 @@ pub fn Ai() -> impl IntoView {
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">AI Chat</h3>
                             <p class="text-xs text-gray-400 truncate">
-                            GPT-4o mini、Claude 3 以及开源 Llama 3.1 和 Mixtral
+                                "GPT-4o mini、Claude 3 以及开源 Llama 3.1 和 Mixtral"
                             </p>
                         </div>
                     </div>

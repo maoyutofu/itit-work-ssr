@@ -2,7 +2,7 @@ use aes::Aes128;
 use base64::prelude::*;
 use block_modes::block_padding::Pkcs7;
 use block_modes::{BlockMode, Ecb, InvalidKeyIvLength};
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 
 type Aes128Ecb = Ecb<Aes128, Pkcs7>;
@@ -41,12 +41,12 @@ fn decrypt_aes128_ebc_pkcs7(
 
 #[component]
 pub fn Aes() -> impl IntoView {
-    let (data, set_data) = create_signal("".to_string());
-    let (result, set_result) = create_signal("".to_string());
-    let (msg, set_msg) = create_signal(None::<String>);
-    let (key, set_key) = create_signal("".to_string());
-    let (iv, set_iv) = create_signal("".to_string());
-    let (mode, set_mode) = create_signal(0);
+    let (data, set_data) = signal("".to_string());
+    let (result, set_result) = signal("".to_string());
+    let (msg, set_msg) = signal(None::<String>);
+    let (key, set_key) = signal("".to_string());
+    let (iv, set_iv) = signal("".to_string());
+    let (mode, set_mode) = signal(0);
 
     let input_data = move |ev| {
         set_data.set(event_target_value(&ev));
@@ -105,7 +105,7 @@ pub fn Aes() -> impl IntoView {
         <section class="my-5">
             <h2 class="my-5">AES 在线加密解密</h2>
             <div class="p-4 bg-yellow-100 text-yellow-800">
-                <p>{"说明：AES 数据块长度为 128 位，所以 IV 长度需要为 16 个字符（ECB 模式不用 IV），密钥根据指定密钥位数分别为 16、24、32 个字符，IV与密钥超过长度则截取，不足则在末尾填充 '\0' 补足"}</p>
+                <p>"说明：AES 数据块长度为 128 位，所以 IV 长度需要为 16 个字符（ECB 模式不用 IV），密钥根据指定密钥位数分别为 16、24、32 个字符，IV与密钥超过长度则截取，不足则在末尾填充 '\0' 补足"</p>
             </div>
             <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">密钥 & 偏移量</label>
             <div class="flex flex-col md:flex-row justify-between gap-5">
@@ -126,7 +126,7 @@ pub fn Aes() -> impl IntoView {
                 <button on:click=decrypt type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">解密</button>
             </div>
             <label for="result" class="block mb-2 text-sm font-medium text-gray-900">结果</label>
-            <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500">{result}</textarea>
+            <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500" prop:value=result></textarea>
             <Show
                 when=move || { msg.get().is_some() }
                 fallback=|| view! { }

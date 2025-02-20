@@ -1,5 +1,5 @@
 use chrono::{DateTime, FixedOffset, Utc};
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 
 fn utc_datetime_format(milliseconds: i64, format: &str) -> Result<String, String> {
@@ -34,12 +34,12 @@ fn datetime_format(milliseconds: i64, offset: f32, format: &str) -> Result<Strin
 #[component]
 pub fn Timestamp() -> impl IntoView {
     let ctime = Utc::now().timestamp();
-    let (data, set_data) = create_signal(ctime.to_string());
-    let (result0, set_result0) = create_signal("".to_string());
-    let (result1, set_result1) = create_signal("".to_string());
-    let (msg, set_msg) = create_signal(None::<String>);
-    let (unit, set_unit) = create_signal("s".to_string());
-    let (tz, set_tz) = create_signal("8".to_string());
+    let (data, set_data) = signal(ctime.to_string());
+    let (result0, set_result0) = signal("".to_string());
+    let (result1, set_result1) = signal("".to_string());
+    let (msg, set_msg) = signal(None::<String>);
+    let (unit, set_unit) = signal("s".to_string());
+    let (tz, set_tz) = signal("8".to_string());
 
     let input_data = move |ev| {
         set_data.set(event_target_value(&ev));
@@ -142,7 +142,7 @@ pub fn Timestamp() -> impl IntoView {
                         <option value="-5">-5时区  [加拿大] Halifax 哈里法克斯</option>
                         <option value="-4">-4时区  [智利] Santiago 圣地亚哥</option>
                         <option value="-4">-4时区  [巴拉圭] Asuncion 亚松森</option>
-                        <option value="-3.5">{"-3.5时区  [加拿大] St. John's 圣约翰斯"}</option>
+                        <option value="-3.5">"-3.5时区  [加拿大] St. John's 圣约翰斯"</option>
                         <option value="-3">-3时区  [阿根廷] Buenos Aires 布宜诺斯艾利斯</option>
                         <option value="-3">-3时区  [乌拉圭] Montevideo 蒙特维的亚</option>
                         <option value="-3">-3时区  [巴西] Brasilia 巴西利亚</option>

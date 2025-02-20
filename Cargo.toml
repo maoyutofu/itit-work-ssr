@@ -21,15 +21,17 @@ serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 serde_yml = "0.0.12"
 toml = "0.8.19"
-#md5 = "0.7.0"
-#uuid = { version = "1.6.1", features = ["v4", "fast-rng", "macro-diagnostics"] }
+md5 = "0.7.0"
+uuid = { version = "1.13.2", default-features = false, features = ["v4", "js"] }
 qrcode = { version = "0.14.1", default-features = false, features = ["svg"] }
-#image = "0.25.2"
-#aes="0.7.5"
-#block-modes="0.8.1"
-#chrono = "0.4.38"
-#rand = "0.8.5"
-#sha1 = "0.10"
+image = "0.25.2"
+aes="0.7.5"
+block-modes="0.8.1"
+chrono = "0.4.38"
+rand = "0.8.5"
+sha1 = "0.10"
+web-sys = { version = "0.3", features =["Window", "console", "Document", "HtmlInputElement", "FileList", "File", "Blob", "ReadableStream", "ReadableStreamDefaultReader", "ReadableStreamReadResult"] }
+wasm-bindgen-futures = "0.4.43"
 
 [features]
 hydrate = [

@@ -8,17 +8,17 @@ pub fn Base64() -> impl IntoView {
     let result = RwSignal::new("".to_string());
 
     let input_data = move |ev| {
-        *data.write() = event_target_value(&ev)
+        data.set(event_target_value(&ev))
     };
 
     let encode = move |_| {
         let result_str = BASE64_STANDARD.encode(data.get());
-        *result.write() = result_str;
+        result.set(result_str);
     };
     let decode = move |_| {
         if let Ok(result_str) = BASE64_STANDARD.decode(data.get()) {
             if let Ok(result_str) = String::from_utf8(result_str) {
-                *result.write() = result_str;
+                result.set(result_str);
             }
         }
     };
@@ -34,7 +34,7 @@ pub fn Base64() -> impl IntoView {
             <button on:click=decode type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">解码</button>
         </div>
         <label for="result" class="block mb-2 text-sm font-medium text-gray-900">结果</label>
-        <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500">{result}</textarea>
+        <textarea id="result" rows="11"  class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500" prop:value=result></textarea>
         </section>
     }
 }

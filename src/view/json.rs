@@ -24,8 +24,8 @@ pub fn Json() -> impl IntoView {
 }
 // #[component]
 // pub fn Json() -> impl IntoView {
-//     let (data, set_data) = create_signal("".to_string());
-//     let (msg, set_msg) = create_signal(None);
+//     let (data, set_data) = signal("".to_string());
+//     let (msg, set_msg) = signal(None);
 
 //     let input_data = move |ev| {
 //         set_data.set(event_target_value(&ev));

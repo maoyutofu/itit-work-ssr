@@ -1,13 +1,13 @@
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 
 #[component]
 pub fn Hex() -> impl IntoView {
-    let (decimalism, set_decimalism) = create_signal("".to_string());
-    let (hex, set_hex) = create_signal("".to_string());
-    let (bin, set_bin) = create_signal("".to_string());
-    let (r#type, set_type) = create_signal("1".to_string());
-    let (msg, set_msg) = create_signal(None::<String>);
+    let (decimalism, set_decimalism) = signal("".to_string());
+    let (hex, set_hex) = signal("".to_string());
+    let (bin, set_bin) = signal("".to_string());
+    let (r#type, set_type) = signal("1".to_string());
+    let (msg, set_msg) = signal(None::<String>);
 
     let input_decimalism = move |ev| {
         set_decimalism.set(event_target_value(&ev));

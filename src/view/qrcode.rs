@@ -1,13 +1,13 @@
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 use qrcode::render::svg;
 use qrcode::QrCode;
 
 #[component]
 pub fn Qrcode() -> impl IntoView {
-    let (data, set_data) = create_signal("".to_string());
-    let (result, set_result) = create_signal(None);
-    let (msg, set_msg) = create_signal(None);
+    let (data, set_data) = signal("".to_string());
+    let (result, set_result) = signal(None);
+    let (msg, set_msg) = signal(None);
 
     let input_data = move |ev| {
         set_data.set(event_target_value(&ev));
@@ -45,7 +45,7 @@ pub fn Qrcode() -> impl IntoView {
                 fallback=|| view! { }
             >
                 <div class="p-4 flex justify-center">
-                    <div>{result}</div>
+                    <div inner_html=result></div>
                 </div>
             </Show>
 

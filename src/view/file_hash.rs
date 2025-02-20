@@ -1,5 +1,4 @@
-use ev::Event;
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 use js_sys::{JsString, Object, Reflect, Uint8Array};
 use wasm_bindgen::JsCast;
@@ -53,9 +52,9 @@ pub async fn md5_hash(f: File) -> Result<String, JsString> {
 
 #[component]
 pub fn FileHash() -> impl IntoView {
-    // let (file, set_file) = create_signal("".to_string());
-    let (result, set_result) = create_signal("".to_string());
-    let (msg, set_msg) = create_signal(None::<String>);
+    // let (file, set_file) = signal("".to_string());
+    let (result, set_result) = signal("".to_string());
+    let (msg, set_msg) = signal(None::<String>);
 
     let input_file = move |ev: Event| {
         if let Some(target) = ev.target() {
@@ -85,7 +84,7 @@ pub fn FileHash() -> impl IntoView {
         <h2 class="my-5">文件 Hash 计算</h2>
         <input on:change=input_file class="block w-full text-sm text-gray-900 border border-gray-300 cursor-pointer bg-gray-50" id="file_input" type="file" />
         <label for="result" class="block mt-5 mb-2 text-sm font-medium text-gray-900">结果</label>
-        <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500">{result}</textarea>
+        <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500" prop:value=result></textarea>
         </section>
         <Show
             when=move || { msg.get().is_some() }

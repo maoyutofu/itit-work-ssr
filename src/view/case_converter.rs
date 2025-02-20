@@ -1,9 +1,9 @@
-use leptos::*;
+use leptos::prelude::*;
 use leptos_meta::*;
 
 #[component]
 pub fn CaseConverter() -> impl IntoView {
-    let (data, set_data) = create_signal("".to_string());
+    let (data, set_data) = signal("".to_string());
 
     let input_data = move |ev| {
         set_data.set(event_target_value(&ev));

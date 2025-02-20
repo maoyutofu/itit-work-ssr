@@ -65,7 +65,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/mp.weixin.ico" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">微信公众平台</h3>
-                            <p class="text-xs text-gray-400">微信公众号、小程序开发者平台</p>
+                            <p class="text-xs text-gray-400">"微信公众号、小程序开发者平台"</p>
                         </div>
                     </div>
                 </a>
@@ -85,7 +85,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/stackoverflow.com.png" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">StackOverflow</h3>
-                            <p class="text-xs text-gray-400 truncate">开发人员学习、分享和发展事业的地方</p>
+                            <p class="text-xs text-gray-400 truncate">"开发人员学习、分享和发展事业的地方"</p>
                         </div>
                     </div>
                 </a>
@@ -105,7 +105,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/szfilehelper.weixin.qq.com.png" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">微信文件助手</h3>
-                            <p class="text-xs text-gray-400 truncate">手机、电脑互传文件</p>
+                            <p class="text-xs text-gray-400 truncate">"手机、电脑互传文件"</p>
                         </div>
                     </div>
                 </a>
@@ -231,7 +231,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/hex.png" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">进制转换</h3>
-                            <p class="text-xs text-gray-400 truncate">十进制、十六进制</p>
+                            <p class="text-xs text-gray-400 truncate">"十进制、十六进制"</p>
                         </div>
                     </div>
                 </a>
@@ -334,7 +334,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/www.xiaohongshu.com.ico" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">小红书</h3>
-                            <p class="text-xs text-gray-400 truncate">3 亿人的生活经验，都在小红书</p>
+                            <p class="text-xs text-gray-400 truncate">"3 亿人的生活经验，都在小红书"</p>
                         </div>
                     </div>
                 </a>
