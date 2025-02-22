@@ -107,7 +107,7 @@ pub fn Aes() -> impl IntoView {
             <div class="p-4 bg-yellow-100 text-yellow-800">
                 <p>"说明：AES 数据块长度为 128 位，所以 IV 长度需要为 16 个字符（ECB 模式不用 IV），密钥根据指定密钥位数分别为 16、24、32 个字符，IV与密钥超过长度则截取，不足则在末尾填充 '\0' 补足"</p>
             </div>
-            <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">密钥 & 偏移量</label>
+            <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900">密钥 & 偏移量</label>
             <div class="flex flex-col md:flex-row justify-between gap-5">
                 <div class="flex flex-col md:flex-row w-full gap-5">
                     <input on:input=input_key type="text" class="w-full bg-gray-50 border-none text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5" placeholder="key" />

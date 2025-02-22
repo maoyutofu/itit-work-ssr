@@ -88,7 +88,7 @@ pub fn Timestamp() -> impl IntoView {
             <Title text="时间戳在线转换 - itit.work" />
             <section class="my-5">
                 <h2 class="my-5">时间戳在线转换</h2>
-                <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">时间戳</label>
+                <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900">时间戳</label>
                 <div class="flex">
                     <input on:input=input_data prop:value=data type="text" class="w-full bg-gray-50 border-none text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5" />
                 </div>
@@ -245,11 +245,11 @@ pub fn Timestamp() -> impl IntoView {
                 <div class="flex mt-5 justify-end gap-1">
                     <button on:click=transform type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">转换</button>
                 </div>
-                <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">零时区</label>
+                <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900">零时区</label>
                 <div class="flex">
                     <input readonly prop:value=result0 type="text" class="w-full bg-gray-50 border-none text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5" />
                 </div>
-                <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">目标时区</label>
+                <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900">目标时区</label>
                 <div class="flex">
                     <input readonly prop:value=result1 type="text" class="w-full bg-gray-50 border-none text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5" />
                 </div>
