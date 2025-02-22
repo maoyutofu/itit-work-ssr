@@ -4,7 +4,7 @@ use leptos_meta::*;
 #[component]
 pub fn Ai() -> impl IntoView {
     view! {
-        <Title text="itit.work - AI 大模型导航" />
+        <Title text="AI 大模型导航 - ITIT.Work" />
         <section class="my-5 bg-white shadow-md p-6">
             <h2>国内公共大模型</h2>
             <div

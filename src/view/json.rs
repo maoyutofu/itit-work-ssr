@@ -5,7 +5,7 @@ use leptos_meta::*;
 #[component]
 pub fn Json() -> impl IntoView {
     view!(
-        <Title text="JSON 在线工具 - itit.work" />
+        <Title text="JSON 在线工具 - ITIT.Work" />
         <link rel="stylesheet" href="/jsoneditor/10.1.0/jsoneditor.css" />
         <script src="/jsoneditor/10.1.0/jsoneditor.min.js" ></script>
         <script src="/jsoneditor/index.js"></script>
@@ -82,7 +82,7 @@ pub fn Json() -> impl IntoView {
 //     };
 
 //     view! {
-//         <Title text="JSON 在线工具 - itit.work" />
+//         <Title text="JSON 在线工具 - ITIT.Work" />
 //         <section class="bg-white shadow-md p-6">
 //         <h2 class="my-5">JSON 在线工具</h2>
 //         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

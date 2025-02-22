@@ -4,7 +4,7 @@ use leptos_meta::*;
 #[component]
 pub fn Index() -> impl IntoView {
     view! {
-        <Title text="itit.work - 做最简单的工具网站" />
+        <Title text="做最简单的工具网站 - ITIT.Work" />
         <section class="my-5 bg-white shadow-md p-6">
             <h2>常用推荐</h2>
             <div
