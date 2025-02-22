@@ -102,7 +102,7 @@ pub fn Aes() -> impl IntoView {
 
     view! {
         <Title text="AES 在线加密解密 - itit.work" />
-        <section class="my-5">
+        <section class="bg-white shadow-md p-6">
             <h2 class="my-5">AES 在线加密解密</h2>
             <div class="p-4 bg-yellow-100 text-yellow-800">
                 <p>"说明：AES 数据块长度为 128 位，所以 IV 长度需要为 16 个字符（ECB 模式不用 IV），密钥根据指定密钥位数分别为 16、24、32 个字符，IV与密钥超过长度则截取，不足则在末尾填充 '\0' 补足"</p>
@@ -120,13 +120,13 @@ pub fn Aes() -> impl IntoView {
                 </select>
             </div>
             <label for="data" class="block mb-2 text-sm font-medium text-gray-900 mt-5">数据</label>
-            <textarea on:input=input_data id="data" rows="11" class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500"></textarea>
+            <textarea on:input=input_data id="data" rows="11" class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500"></textarea>
             <div class="flex mt-5 justify-end gap-1">
                 <button on:click=encrypt type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">加密</button>
                 <button on:click=decrypt type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">解密</button>
             </div>
             <label for="result" class="block mb-2 text-sm font-medium text-gray-900">结果</label>
-            <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500" prop:value=result></textarea>
+            <textarea id="result" rows="11" readonly class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500" prop:value=result></textarea>
             <Show
                 when=move || { msg.get().is_some() }
                 fallback=|| view! { }

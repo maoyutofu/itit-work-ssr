@@ -39,7 +39,7 @@ pub fn Mac() -> impl IntoView {
     view!(
         <Title text="在线 MAC 生成器 - itit.work" />
 
-        <section class="my-5">
+        <section class="bg-white shadow-md p-6">
             <h2 class="my-5">在线 MAC 生成器</h2>
             <div class="flex flex-col mb-4">
                 <label for="password-count" class="w-24 text-sm font-medium text-gray-900 mb-2">数量</label>
@@ -49,7 +49,7 @@ pub fn Mac() -> impl IntoView {
                 <button on:click=generate type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">生成</button>
             </div>
             <label for="result" class="block mb-2 text-sm font-medium text-gray-900">结果</label>
-            <textarea id="result" rows="11" readonly class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500" prop:value=result></textarea>
+            <textarea id="result" rows="11" readonly class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500" prop:value=result></textarea>
         </section>
     )
 }

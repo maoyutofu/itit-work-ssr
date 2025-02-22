@@ -5,7 +5,7 @@ use leptos_meta::*;
 pub fn Ai() -> impl IntoView {
     view! {
         <Title text="itit.work - AI 大模型导航" />
-        <section class="my-5">
+        <section class="my-5 bg-white shadow-md p-6">
             <h2>国内公共大模型</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
@@ -69,16 +69,6 @@ pub fn Ai() -> impl IntoView {
                         </div>
                     </div>
                 </a>
-                <a href="https://kimi.moonshot.cn" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/kimi.moonshot.cn.ico" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">Kimi</h3>
-                            <p class="text-xs text-gray-400 truncate">月之暗面大语言模型</p>
-                        </div>
-                    </div>
-                </a>
                 <a href="https://cloud.baidu.com/product/wenxinworkshop" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
@@ -99,9 +89,39 @@ pub fn Ai() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="https://siliconflow.cn" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/siliconflow.cn.svg" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">硅基流动</h3>
+                            <p class="text-xs text-gray-400 truncate">性价比高的大模型服务平台</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://kimi.moonshot.cn" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/kimi.moonshot.cn.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Kimi</h3>
+                            <p class="text-xs text-gray-400 truncate">月之暗面大语言模型</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://chat.deepseek.com" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/deepseek.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">DeepSeek</h3>
+                            <p class="text-xs text-gray-400 truncate">探索未至之境</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
-        <section class="my-5">
+        <section class="my-5 bg-white shadow-md p-6">
             <h2>国际公共大模型</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
@@ -169,7 +189,7 @@ pub fn Ai() -> impl IntoView {
                 </a>
             </div>
         </section>
-        <section class="my-5">
+        <section class="my-5 bg-white shadow-md p-6">
             <h2>本地私有大模型</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
