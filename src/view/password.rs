@@ -92,7 +92,7 @@ pub fn Password() -> impl IntoView {
         <Title text="在线随机密码生成器 - ITIT.Work" />
 
         <section class="bg-white shadow-md p-6">
-            <h2 class="my-5">在线随机密码生成器</h2>
+            <h2>在线随机密码生成器</h2>
             <div class="flex items-center flex-wrap gap-5 mb-4">
                 <div>
                     <input id="capital" type="checkbox" on:change=capital_change prop:checked=capital value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500" />

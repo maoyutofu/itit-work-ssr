@@ -28,7 +28,7 @@ pub fn Md5() -> impl IntoView {
     view! {
         <Title text="MD5 在线计算 - ITIT.Work" />
         <section class="bg-white shadow-md p-6">
-        <h2 class="my-5">MD5 在线计算</h2>
+        <h2>MD5 在线计算</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>
         <textarea on:input=input_data id="data" rows="11" class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500"></textarea>
         <div class="flex mt-5 justify-end gap-1">

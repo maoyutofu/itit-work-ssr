@@ -19,7 +19,7 @@ pub fn CaseConverter() -> impl IntoView {
     view! {
         <Title text="大小写在线转换 - ITIT.Work" />
         <section class="bg-white shadow-md p-6">
-        <h2 class="my-5">大小写在线转换</h2>
+        <h2>大小写在线转换</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>
         <textarea on:input=input_data prop:value=data id="data" rows="11" class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500"></textarea>
         <div class="flex mt-5 justify-end gap-1">

@@ -87,7 +87,7 @@ pub fn Timestamp() -> impl IntoView {
     view! {
             <Title text="时间戳在线转换 - ITIT.Work" />
             <section class="bg-white shadow-md p-6">
-                <h2 class="my-5">时间戳在线转换</h2>
+                <h2>时间戳在线转换</h2>
                 <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900">时间戳</label>
                 <div class="flex">
                     <input on:input=input_data prop:value=data type="text" class="w-full bg-gray-50 border-none text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block p-2.5" />

@@ -25,7 +25,7 @@ pub fn Uuid() -> impl IntoView {
     view! {
         <Title text="UUID 在线生成 - ITIT.Work" />
         <section class="bg-white shadow-md p-6">
-            <h2 class="my-5">UUID 在线生成</h2>
+            <h2>UUID 在线生成</h2>
             <label for="number-input" class="block mb-2 text-sm font-medium text-gray-900">数量</label>
             <input on:input=input_data  prop:value=move || count.get() type="number" id="number-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border-none text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required />
             <div class="flex mt-5 justify-end gap-1">

@@ -81,7 +81,7 @@ pub fn FileHash() -> impl IntoView {
     view! {
         <Title text="文件 Hash 计算 - ITIT.Work" />
         <section class="bg-white shadow-md p-6">
-        <h2 class="my-5">文件 Hash 计算</h2>
+        <h2>文件 Hash 计算</h2>
         <input on:change=input_file class="block w-full text-sm text-gray-900 border border-gray-300 cursor-pointer bg-gray-50" id="file_input" type="file" />
         <label for="result" class="block mt-5 mb-2 text-sm font-medium text-gray-900">结果</label>
         <textarea id="result" rows="11" readonly class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500" prop:value=result></textarea>
