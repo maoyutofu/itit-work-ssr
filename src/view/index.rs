@@ -122,7 +122,7 @@ pub fn Index() -> impl IntoView {
             </div>
         </section>
         <section class="my-5 bg-white shadow-md p-6">
-            <h2>工具</h2>
+            <h2>"工具（Rust WASM）"</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
                 <a href="/json" target="_blank">
