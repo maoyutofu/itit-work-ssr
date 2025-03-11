@@ -43,10 +43,17 @@ pub fn Timestamp() -> impl IntoView {
 
     let input_data = move |ev| {
         set_data.set(event_target_value(&ev));
+       
     };
 
     let change_unit = move |ev| {
-        set_unit.set(event_target_value(&ev));
+        let unit = event_target_value(&ev);
+        set_unit.set(unit.clone());
+        match unit.as_str() {
+            "s" => set_data.set(Utc::now().timestamp().to_string()),
+            "ms" => set_data.set(Utc::now().timestamp_millis().to_string()),
+            _ => {}
+        };
     };
 
     let change_tz = move |ev| {

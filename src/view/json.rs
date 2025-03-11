@@ -10,7 +10,7 @@ pub fn Json() -> impl IntoView {
         <script src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/10.1.0/jsoneditor.min.js" ></script>
         <script src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/index.js"></script>
         <section class="bg-white shadow-md p-6">
-            <h2>JSON 在线工具</h2>
+            <h2>"JSON 在线工具（元素操作切换"<span class="text-fuchsia-800">"代码 -> 树"</span>"视图更方便）"</h2>
             <div id="jsoneditor" class="w-full my-5" style="height: 40rem;"></div>
             <div class="flex flex-wrap mt-5 justify-between sm:justify-end gap-1">
                 <button onclick="format()" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">格式化</button>
