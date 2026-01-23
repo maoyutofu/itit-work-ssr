@@ -119,6 +119,26 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="https://systemprompt.icu/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/systemprompt.icu.svg" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Prompt 优化工具</h3>
+                            <p class="text-xs text-gray-400 truncate">让AI更好地理解你的 Prompt</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://imageprompt.org/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/imageprompt.org.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">图片提示生成器</h3>
+                            <p class="text-xs text-gray-400 truncate">将图像转换为提示词</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="my-5 bg-white shadow-md p-6">
@@ -268,7 +288,73 @@ pub fn Index() -> impl IntoView {
             </div>
         </section>
         <section class="my-5 bg-white shadow-md p-6">
-            <h2>邮箱</h2>
+            <h2>临时邮箱</h2>
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
+                <a href="https://fakemail.work/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/fakemail.work.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">FakeMail</h3>
+                            <p class="text-xs text-gray-400 truncate">安全且匿名的临时邮件服务</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://moakt.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/moakt.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Moakt Email</h3>
+                            <p class="text-xs text-gray-400 truncate">Temporary disposable Email Service</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://temp-mail.io/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/temp-mail.io.svg" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Temp Mail</h3>
+                            <p class="text-xs text-gray-400 truncate">免费临时电子邮件</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://temp-mail-365.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/temp-mail-365.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Temp Mail 365</h3>
+                            <p class="text-xs text-gray-400 truncate">"临时邮箱保护隐私，避免垃圾邮件"</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://tempmail100.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/tempmail100.com.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">TempMail 100</h3>
+                            <p class="text-xs text-gray-400 truncate">"一次性电子邮件"</p>
+                        </div>
+                    </div>
+                </a>
+                 <a href="https://www.linshiguge.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/linshiguge.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">临时Gmail</h3>
+                            <p class="text-xs text-gray-400 truncate">"谷歌临时邮箱"</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="my-5 bg-white shadow-md p-6">
+            <h2>个人邮箱</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
                 <a href="https://mail.google.com/" target="_blank">
@@ -312,6 +398,52 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="https://email.163.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/email.163.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">网易邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">你的专业电子邮局</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://wx.mail.qq.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.qq.com.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">QQ邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">便捷的免费电子邮箱</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://mail.aliyun.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.aliyun.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">阿里邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">登录阿里邮箱个人版</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://login.yahoo.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/yahoo.com.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Yahoo</h3>
+                            <p class="text-xs text-gray-400 truncate">卓越的 Yahoo 邮箱</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="my-5 bg-white shadow-md p-6">
+            <h2>企业邮箱</h2>
+            <div
+                class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
                 <a href="https://mail.qiye.163.com/" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
@@ -322,13 +454,53 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
-                <a href="https://fakemail.work/" target="_blank">
+                <a href="https://exmail.qq.com/login" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/fakemail.work.png" alt="" />
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/exmail.qq.com.ico" alt="" />
                         <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">FakeMail</h3>
-                            <p class="text-xs text-gray-400 truncate">安全且匿名的临时邮件服务</p>
+                            <h3 class="text-sm truncate">腾讯企业邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">登录腾讯企业邮箱</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://qiye.aliyun.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.aliyun.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">阿里邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">构建在阿里云飞天平台上的企业邮箱</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://accounts.zoho.com.cn/signin" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/zoho.com.cn.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">Zoho企业邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">CRM, 企业邮箱, 进销存等企业SaaS软件及云应用</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://qiye.tom.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/tom.com.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">TOM企业邮箱</h3>
+                            <p class="text-xs text-gray-400 truncate">外贸邮箱,公司邮箱,域名邮箱</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://mail.263.net/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/263.net.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">263云通信</h3>
+                            <p class="text-xs text-gray-400 truncate">安全稳定 全球畅邮</p>
                         </div>
                     </div>
                 </a>

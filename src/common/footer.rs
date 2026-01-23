@@ -6,15 +6,20 @@ pub fn Footer() -> impl IntoView {
         <section class="my-5">
             <h2>友情连接</h2>
             <div class="mt-5 px-5 py-5 bg-white">
-                <ul class="flex items-start list-disc">
-                    <li class="text-xs">
+                <ul class="flex flex-wrap items-center gap-6 list-disc list-inside text-sm">
+                    <li class="flex items-center hover:text-blue-600 transition-colors">
                         <a href="https://jizhong.plus/" target="_blank">"Jizhong's blog"</a>
+                    </li>
+                    <li class="flex items-center hover:text-blue-600 transition-colors">
+                        <a href="https://helix-editor.cn/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1">
+                            <span>"Helix 中文网"</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </section>
         <div class="flex gap-2">
-            <div class="text-sm">"©" 2024 <a href="https://itit.work/" class="ml-2">ITIT.Work</a></div>
+            <div class="text-sm">"©" 2024 - 2026 <a href="https://itit.work/" class="ml-2">ITIT.Work</a></div>
             <div class="text-sm"> 由 <a href="https://www.rust-lang.org/">Rust</a>"、"<a href="https://leptos.dev/">Leptos</a> 强力驱动</div>
             <div class="text-sm">
                 <a class="vp-repo-link" href="https://github.com/maoyutofu/itit-work" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
