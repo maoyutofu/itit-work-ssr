@@ -1,12 +1,13 @@
 [package]
 name = "itit-work-ssr"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
+worker = { version = "0.7", features = ["http", "axum", "d1"], optional = true }
 leptos = { version = "0.7.0" }
 leptos_router = { version = "0.7.0" }
 axum = { version = "0.7", optional = true }
@@ -14,7 +15,8 @@ console_error_panic_hook = { version = "0.1", optional = true}
 leptos_axum = { version = "0.7.0", optional = true }
 leptos_meta = { version = "0.7.0" }
 tokio = { version = "1", features = ["rt-multi-thread"], optional = true }
-wasm-bindgen = { version = "=0.2.100", optional = true }
+wasm-bindgen = { version = "0.2.106", optional = true }
+wasm-bindgen-futures = "0.4.58"
 getrandom = { version = "0.2", features = ["js"] }
 
 base64 = "0.22.1"
@@ -31,8 +33,7 @@ block-modes="0.8.1"
 chrono = "0.4.38"
 rand = "0.8.5"
 sha1 = "0.10"
-web-sys = { version = "0.3", features =["Window", "console", "Document", "HtmlInputElement", "FileList", "File", "Blob", "ReadableStream", "ReadableStreamDefaultReader", "ReadableStreamReadResult"] }
-wasm-bindgen-futures = "0.4.43"
+web-sys = { version = "0.3.85", features =["Window", "console", "Document", "HtmlInputElement", "FileList", "File", "Blob", "ReadableStream", "ReadableStreamDefaultReader", "ReadableStreamReadResult"] }
 
 [features]
 hydrate = [
@@ -48,6 +49,12 @@ ssr = [
     "leptos_meta/ssr",
     "leptos_router/ssr",
 ]
+
+[profile.release]
+opt-level = "s"   # optimize for size in release builds
+lto = true
+strip = true
+codegen-units = 1
 
 # Defines a size-optimized profile for the WASM bundle in release mode
 [profile.wasm-release]
@@ -92,8 +99,8 @@ end2end-dir = "end2end"
 #  The browserlist query used for optimizing the CSS.
 browserquery = "defaults"
 
-# The environment Leptos will run in, usually either "DEV" or "PROD"
-env = "DEV"
+# The environment Leptos will run in, usually either "DEV" or "v"
+env = "PROD"
 
 # The features to use when compiling the bin target
 #
@@ -119,3 +126,5 @@ lib-default-features = false
 #
 # Optional. Defaults to "release".
 lib-profile-release = "wasm-release"
+
+wasm_opt = ["-Oz", "--enable-bulk-memory", "--all-features"]

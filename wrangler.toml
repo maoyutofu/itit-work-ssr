@@ -1,0 +1,9 @@
+name = "itit-work-ssr"
+main = "build/index.js"
+compatibility_date = "2026-01-23"
+
+[build]
+command = "cargo leptos build --release && cargo install -q worker-build@^0.7 && LEPTOS_OUTPUT_NAME=itit-work-ssr worker-build --release --features ssr"
+
+[assets]
+directory = "./target/site"
