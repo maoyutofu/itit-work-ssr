@@ -1,0 +1,17 @@
+{
+  "name": "itit-work-ssr",
+  "version": "1.0.0",
+  "description": "<picture>     <source srcset=\"https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_Solid_White.svg\" media=\"(prefers-color-scheme: dark)\">     <img src=\"https://raw.githubusercontent.com/leptos-rs/leptos/main/docs/logos/Leptos_logo_RGB.svg\" alt=\"Leptos Logo\"> </picture>",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^3.4.19",
+    "wrangler": "^4.61.0"
+  }
+}
