@@ -10,11 +10,11 @@ crate-type = ["cdylib", "rlib"]
 worker = { version = "0.7", features = ["http", "axum", "d1"], optional = true }
 leptos = { version = "0.7.0" }
 leptos_router = { version = "0.7.0" }
-axum = { version = "0.7", optional = true }
+tower-service = "0.3"
+axum = { version = "0.7", default-features = false, optional = true }
 console_error_panic_hook = { version = "0.1", optional = true}
-leptos_axum = { version = "0.7.0", optional = true }
+leptos_axum = { version = "0.7.0", default-features = false, features = ["wasm"], optional = true }
 leptos_meta = { version = "0.7.0" }
-tokio = { version = "1", features = ["rt-multi-thread"], optional = true }
 wasm-bindgen = { version = "0.2.106", optional = true }
 wasm-bindgen-futures = "0.4.58"
 getrandom = { version = "0.2", features = ["js"] }
@@ -42,8 +42,8 @@ hydrate = [
     "dep:wasm-bindgen",
 ]
 ssr = [
+    "dep:worker",
     "dep:axum",
-    "dep:tokio",
     "dep:leptos_axum",
     "leptos/ssr",
     "leptos_meta/ssr",
@@ -77,7 +77,7 @@ site-pkg-dir = "pkg"
 
 # [Optional] The source CSS file. If it ends with .sass or .scss then it will be compiled by dart-sass into CSS. The CSS is optimized by Lightning CSS before being written to <site-root>/<site-pkg>/app.css
 # style-file = "style/main.scss"
-tailwind-input-file = "style/tailwind.css"
+tailwind-input-file = "style/style.css"
 # Assets source dir. All files found here will be copied and synchronized to site-root.
 # The assets-dir cannot have a sub directory with the same name/path as site-pkg-dir.
 #
@@ -126,5 +126,3 @@ lib-default-features = false
 #
 # Optional. Defaults to "release".
 lib-profile-release = "wasm-release"
-
-wasm_opt = ["-Oz", "--enable-bulk-memory", "--all-features"]
