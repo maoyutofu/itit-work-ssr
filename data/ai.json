@@ -1,0 +1,155 @@
+[
+  {
+    "name": "国内公共大模型",
+    "items": [
+      {
+        "name": "API2D",
+        "desc": "大模型像用电一样方便",
+        "url": "https://api2d.com/r/220092",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/api2d.com.png"
+      },
+      {
+        "name": "通义千问",
+        "desc": "阿里云大语言模型",
+        "url": "https://qianwen.aliyun.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/tongyi.aliyun.com.png"
+      },
+      {
+        "name": "腾讯混元",
+        "desc": "腾讯大语言模型",
+        "url": "https://hunyuan.tencent.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/hunyuan.tencent.com.png"
+      },
+      {
+        "name": "文心一言",
+        "desc": "百度大语言模型",
+        "url": "https://yiyan.baidu.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/yiyan.baidu.com.png"
+      },
+      {
+        "name": "豆包",
+        "desc": "字节跳动大语言模型",
+        "url": "https://www.doubao.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.doubao.com.png"
+      },
+      {
+        "name": "智谱清言",
+        "desc": "智谱AI商业大模型",
+        "url": "https://chatglm.cn",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/chatglm.cn.svg"
+      },
+      {
+        "name": "百度千帆",
+        "desc": "百度智能云AI平台",
+        "url": "https://cloud.baidu.com/product/wenxinworkshop",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/qianfan.cloud.baidu.com.ico"
+      },
+      {
+        "name": "讯飞星火",
+        "desc": "科大讯飞大语言模型",
+        "url": "https://xinghuo.xfyun.cn",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/xinghuo.xfyun.cn.ico"
+      },
+      {
+        "name": "硅基流动",
+        "desc": "性价比高的大模型服务平台",
+        "url": "https://siliconflow.cn",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/siliconflow.cn.svg"
+      },
+      {
+        "name": "Kimi",
+        "desc": "月之暗面大语言模型",
+        "url": "https://kimi.moonshot.cn",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/kimi.moonshot.cn.ico"
+      },
+      {
+        "name": "DeepSeek",
+        "desc": "探索未至之境",
+        "url": "https://chat.deepseek.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/deepseek.com.ico"
+      }
+    ]
+  },
+  {
+    "name": "国际公共大模型",
+    "items": [
+      {
+        "name": "ChatGPT",
+        "desc": "OpenAI GPT-4/3.5模型",
+        "url": "https://chat.openai.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/chat.openai.com.svg"
+      },
+      {
+        "name": "Claude",
+        "desc": "Anthropic Claude 3系列模型",
+        "url": "https://claude.ai",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/claude.ai.png"
+      },
+      {
+        "name": "Gemini",
+        "desc": "Google Gemini系列模",
+        "url": "https://gemini.google.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/gemini.google.com.svg"
+      },
+      {
+        "name": "Perplexity",
+        "desc": "基于多模型的AI助手",
+        "url": "https://www.perplexity.ai",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/perplexity.ai.png"
+      },
+      {
+        "name": "Mistral AI",
+        "desc": "Mistral系列商业模型",
+        "url": "https://mistral.ai",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mistral.ai.png"
+      },
+      {
+        "name": "AI Chat",
+        "desc": "GPT-4o mini、Claude 3 以及开源 Llama 3.1 和 Mixtral",
+        "url": "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/duckduckgo.com.png"
+      },
+      {
+        "name": "Grok",
+        "desc": "Grok by xAI",
+        "url": "https://grok.com",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/grok.com.png"
+      }
+    ]
+  },
+  {
+    "name": "本地私有大模型",
+    "items": [
+      {
+        "name": "Llama 3",
+        "desc": "Meta最新开源大语言模型",
+        "url": "https://github.com/facebookresearch/llama",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/llama.png"
+      },
+      {
+        "name": "Qwen2",
+        "desc": "阿里通义千问开源版本",
+        "url": "https://github.com/QwenLM/Qwen",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/qwen.png"
+      },
+      {
+        "name": "01.AI",
+        "desc": "零一万物开源大语言模型",
+        "url": "https://github.com/01-ai/Yi",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/01ai.png"
+      },
+      {
+        "name": "ChatGLM3",
+        "desc": "清华开源双语大模型",
+        "url": "https://github.com/THUDM/ChatGLM3",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/chatglm3.png"
+      },
+      {
+        "name": "Baichuan",
+        "desc": "百川智能开源大语言模型",
+        "url": "https://github.com/baichuan-inc",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/baichuan.png"
+      }
+    ]
+  }
+]

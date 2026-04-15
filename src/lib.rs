@@ -4,6 +4,12 @@ use worker::*;
 pub mod app;
 pub mod common;
 pub mod view;
+pub mod page;
+pub mod util;
+
+const FRIENDS_JSON: &str = include_str!("../data/friends.json");
+const INDEX_JSON: &str = include_str!("../data/index.json");
+const AI_JSON: &str = include_str!("../data/ai.json");
 
 #[cfg(feature = "hydrate")]
 #[wasm_bindgen::prelude::wasm_bindgen]

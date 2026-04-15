@@ -1,0 +1,368 @@
+[
+  {
+    "name": "常用推荐",
+    "items": [
+      {
+        "name": "Discord",
+        "desc": "让您的群聊更有趣",
+        "url": "https://discord.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/discord.com.ico"
+      },
+      {
+        "name": "Slack",
+        "desc": "AI 工作管理和工作效率工具",
+        "url": "https://slack.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/slack.com.ico"
+      },
+      {
+        "name": "Reddit",
+        "desc": "深入探索一切",
+        "url": "https://www.reddit.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/reddit.com.png"
+      },
+      {
+        "name": "Instagram",
+        "desc": "一款拍照分享的社交平台",
+        "url": "https://www.instagram.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/instagram.com.png"
+      },
+      {
+        "name": "Google 翻译",
+        "desc": "记录美好生活",
+        "url": "https://translate.google.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/translate.google.com.ico"
+      },
+      {
+        "name": "微信公众平台",
+        "desc": "微信公众号、小程序开发者平台",
+        "url": "https://mp.weixin.qq.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mp.weixin.ico"
+      },
+      {
+        "name": "微信读书",
+        "desc": "记录美好生活",
+        "url": "https://weread.qq.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/weread.qq.com.ico"
+      },
+      {
+        "name": "StackOverflow",
+        "desc": "开发人员学习、分享和发展事业的地方",
+        "url": "https://stackoverflow.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/stackoverflow.com.png"
+      },
+      {
+        "name": "GitHub",
+        "desc": "记录美好生活",
+        "url": "https://github.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/github.com.png"
+      },
+      {
+        "name": "微信文件助手",
+        "desc": "手机、电脑互传文件",
+        "url": "https://szfilehelper.weixin.qq.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/szfilehelper.weixin.qq.com.png"
+      },
+      {
+        "name": "AI 大模型导航",
+        "desc": "让 AI 为你打工",
+        "url": "/ai",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/ai.svg"
+      },
+      {
+        "name": "Prompt 优化工具",
+        "desc": "让AI更好地理解你的 Prompt",
+        "url": "https://systemprompt.icu/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/systemprompt.icu.svg"
+      },
+      {
+        "name": "图片提示生成器",
+        "desc": "将图像转换为提示词",
+        "url": "https://imageprompt.org/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/imageprompt.org.ico"
+      }
+    ]
+  },
+  {
+    "name": "工具（Rust WASM）",
+    "items": [
+      {
+        "name": "JSON",
+        "desc": "JSON 格式化转义工具",
+        "url": "/json",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/json.webp"
+      },
+      {
+        "name": "YAML",
+        "desc": "YAML 与 JSON 互转",
+        "url": "/yaml",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/yaml.png"
+      },
+      {
+        "name": "TOML",
+        "desc": "TOML 与 JSON 互转",
+        "url": "/toml",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/toml.png"
+      },
+      {
+        "name": "AES",
+        "desc": "对称加密算法",
+        "url": "/aes",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/aes.png"
+      },
+      {
+        "name": "MD5",
+        "desc": "MD5计算工具",
+        "url": "/md5",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/md5.png"
+      },
+      {
+        "name": "Base64",
+        "desc": "在线编码解码",
+        "url": "/base64",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/base64.png"
+      },
+      {
+        "name": "UUID",
+        "desc": "UUID 生成工具",
+        "url": "/uuid",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/uuid.png"
+      },
+      {
+        "name": "二维码",
+        "desc": "在线生成二维码",
+        "url": "/qrcode",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/qrcode.png"
+      },
+      {
+        "name": "时间戳转换",
+        "desc": "时间戳转目标时区",
+        "url": "/timestamp",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/time.png"
+      },
+      {
+        "name": "大小写转换",
+        "desc": "在线转换字母大小写",
+        "url": "/case-converter",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/case-converter.png"
+      },
+      {
+        "name": "进制转换",
+        "desc": "十进制、十六进制",
+        "url": "/hex",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/hex.png"
+      },
+      {
+        "name": "密码生成器",
+        "desc": "在线随机密码生成器",
+        "url": "/password",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/password.png"
+      },
+      {
+        "name": "MAC 生成器",
+        "desc": "在线 MAC 生成器",
+        "url": "/mac",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mac_address.png"
+      },
+      {
+        "name": "文件哈希",
+        "desc": "文件 MD5 哈希计算",
+        "url": "/file-hash",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/file_hash.png"
+      }
+    ]
+  },
+  {
+    "name": "临时邮箱",
+    "items": [
+      {
+        "name": "FakeMail",
+        "desc": "安全且匿名的临时邮件服务",
+        "url": "https://fakemail.work/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/fakemail.work.png"
+      },
+      {
+        "name": "Moakt Email",
+        "desc": "Temporary disposable Email Service",
+        "url": "https://moakt.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/moakt.com.ico"
+      },
+      {
+        "name": "Temp Mail",
+        "desc": "免费临时电子邮件",
+        "url": "https://temp-mail.io/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/temp-mail.io.svg"
+      },
+      {
+        "name": "Temp Mail 365",
+        "desc": "临时邮箱保护隐私，避免垃圾邮件",
+        "url": "https://temp-mail-365.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/temp-mail-365.com.ico"
+      },
+      {
+        "name": "TempMail 100",
+        "desc": "一次性电子邮件",
+        "url": "https://tempmail100.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/tempmail100.com.png"
+      },
+      {
+        "name": "临时Gmail",
+        "desc": "谷歌临时邮箱",
+        "url": "https://www.linshiguge.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/linshiguge.com.ico"
+      }
+    ]
+  },
+  {
+    "name": "个人邮箱",
+    "items": [
+      {
+        "name": "Gmail",
+        "desc": "Google 的邮件服务",
+        "url": "https://mail.google.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/gmail.png"
+      },
+      {
+        "name": "Outlook",
+        "desc": "微软 Outlook 邮箱",
+        "url": "https://www.microsoft.com/zh-cn/microsoft-365/outlook/web-email-login-for-outlook",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/outlook.png"
+      },
+      {
+        "name": "Proton Mail",
+        "desc": "保护您隐私的安全电子邮件",
+        "url": "https://proton.me/mail",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/proton.me.svg"
+      },
+      {
+        "name": "Yandex Mail",
+        "desc": "俄罗斯最大的电子邮件服务商",
+        "url": "https://360.yandex.com/mail/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/360.yandex.com.ico"
+      },
+      {
+        "name": "网易邮箱",
+        "desc": "你的专业电子邮局",
+        "url": "https://email.163.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/email.163.com.ico"
+      },
+      {
+        "name": "QQ邮箱",
+        "desc": "便捷的免费电子邮箱",
+        "url": "https://wx.mail.qq.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.qq.com.png"
+      },
+      {
+        "name": "阿里邮箱",
+        "desc": "登录阿里邮箱个人版",
+        "url": "https://mail.aliyun.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.aliyun.com.ico"
+      },
+      {
+        "name": "Yahoo",
+        "desc": "卓越的 Yahoo 邮箱",
+        "url": "https://login.yahoo.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/yahoo.com.png"
+      }
+    ]
+  },
+  {
+    "name": "企业邮箱",
+    "items": [
+      {
+        "name": "网易企业邮箱",
+        "desc": "由网易提供的企业邮箱服务",
+        "url": "https://mail.qiye.163.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.qiye.163.com.ico"
+      },
+      {
+        "name": "腾讯企业邮箱",
+        "desc": "登录腾讯企业邮箱",
+        "url": "https://exmail.qq.com/login",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/exmail.qq.com.ico"
+      },
+      {
+        "name": "阿里邮箱",
+        "desc": "构建在阿里云飞天平台上的企业邮箱",
+        "url": "https://qiye.aliyun.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mail.aliyun.com.ico"
+      },
+      {
+        "name": "Zoho企业邮箱",
+        "desc": "CRM, 企业邮箱, 进销存等企业SaaS软件及云应用",
+        "url": "https://accounts.zoho.com.cn/signin",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/zoho.com.cn.ico"
+      },
+      {
+        "name": "TOM企业邮箱",
+        "desc": "外贸邮箱,公司邮箱,域名邮箱",
+        "url": "https://qiye.tom.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/tom.com.ico"
+      },
+      {
+        "name": "263云通信",
+        "desc": "安全稳定 全球畅邮",
+        "url": "https://mail.263.net/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/263.net.png"
+      }
+    ]
+  },
+  {
+    "name": "创作",
+    "items": [
+      {
+        "name": "小红书",
+        "desc": "3 亿人的生活经验，都在小红书",
+        "url": "https://www.xiaohongshu.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.xiaohongshu.com.ico"
+      },
+      {
+        "name": "抖音",
+        "desc": "记录美好生活",
+        "url": "https://www.douyin.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.douyin.com.ico"
+      },
+      {
+        "name": "头条号",
+        "desc": "今日头条媒体平台",
+        "url": "https://mp.toutiao.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mp.toutiao.com.png"
+      },
+      {
+        "name": "YouTube",
+        "desc": "一款很优质的视频社交平台",
+        "url": "https://www.youtube.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.youtube.com.png"
+      },
+      {
+        "name": "语雀",
+        "desc": "文档协同 知识管理",
+        "url": "https://www.yuque.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.yuque.com.png"
+      },
+      {
+        "name": "飞书",
+        "desc": "先进企业协作与管理平台",
+        "url": "https://www.feishu.cn/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/feishu.cn.ico"
+      },
+      {
+        "name": "wolai",
+        "desc": "我来 wolai",
+        "url": "https://www.wolai.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.wolai.com.png"
+      },
+      {
+        "name": "为知笔记",
+        "desc": "ONES 旗下笔记工具",
+        "url": "https://www.wiz.cn/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/www.wiz.cn.ico"
+      },
+      {
+        "name": "有道翻译",
+        "desc": "网易的翻译工具",
+        "url": "https://fanyi.youdao.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/fanyi.youdao.com.png"
+      }
+    ]
+  }
+]
