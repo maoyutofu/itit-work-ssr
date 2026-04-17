@@ -5,7 +5,7 @@ use leptos_router::{
     StaticSegment,
 };
 
-use crate::{common::{Footer, Header}, view::{Ai, Base64, Index, Json, Md5, Uuid, Qrcode, Yaml, Toml, Aes, Timestamp, CaseConverter, Hex, Password, Mac, FileHash}};
+use crate::{common::{Footer, Header}, view::{Ai, Base64, Index, Json, Md5, Uuid, Qrcode, Yaml, Toml, Aes, Timestamp, CaseConverter, Hex, Password, Mac, FileHash, Wx, Md}};
 
 pub fn shell(options: LeptosOptions) -> impl IntoView {
     view! {
@@ -70,6 +70,8 @@ pub fn App() -> impl IntoView {
                         <Route path=StaticSegment("/password") view=Password />
                         <Route path=StaticSegment("/mac") view=Mac />
                         <Route path=StaticSegment("/file-hash") view=FileHash />
+                        <Route path=StaticSegment("/wx") view=Wx />
+                        <Route path=StaticSegment("/md") view=Md />
                     </Routes>
                 </main>
                 <footer>

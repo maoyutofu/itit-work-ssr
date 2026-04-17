@@ -33,6 +33,7 @@ block-modes="0.8.1"
 chrono = "0.4.38"
 rand = "0.8.5"
 sha1 = "0.10"
+pulldown-cmark = "0.10"
 web-sys = { version = "0.3.85", features =["Window", "console", "Document", "HtmlInputElement", "FileList", "File", "Blob", "ReadableStream", "ReadableStreamDefaultReader", "ReadableStreamReadResult"] }
 
 [features]

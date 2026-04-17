@@ -49,6 +49,24 @@
         "desc": "使用人工智能无损放大图片",
         "url": "https://bigjpg.com/zh",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/bigjpg.com.png"
+      },
+      {
+        "name": "JWT 编解码",
+        "desc": "解码、验证并生成 JSON Web Token",
+        "url": "https://jwt.io/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/jwt.io.ico"
+      },
+      {
+        "name": "微信公众号排版",
+        "desc": "Markdown 转微信公众号排版",
+        "url": "http://itit.work/wx",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mp.weixin.qq.com.ico"
+      },
+      {
+        "name": "Markdown 编辑器",
+        "desc": "在线编辑/预览 Markdown",
+        "url": "http://itit.work/md",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/markdown.svg"
       }
     ]
   },

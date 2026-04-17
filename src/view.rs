@@ -14,6 +14,8 @@ mod password;
 mod mac;
 mod file_hash;
 mod ai;
+mod wx;
+mod md;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -31,3 +33,5 @@ pub use password::Password;
 pub use mac::Mac;
 pub use file_hash::FileHash;
 pub use ai::Ai;
+pub use wx::Wx;
+pub use md::Md;
