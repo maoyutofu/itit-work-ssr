@@ -3,16 +3,58 @@
     "name": "常用推荐",
     "items": [
       {
+        "name": "Discord",
+        "desc": "让您的群聊更有趣",
+        "url": "https://discord.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/discord.com.ico"
+      },
+      {
+        "name": "Slack",
+        "desc": "AI 工作管理和工作效率工具",
+        "url": "https://slack.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/slack.com.ico"
+      },
+      {
+        "name": "Reddit",
+        "desc": "深入探索一切",
+        "url": "https://www.reddit.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/reddit.com.png"
+      },
+      {
+        "name": "Instagram",
+        "desc": "一款拍照分享的社交平台",
+        "url": "https://www.instagram.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/instagram.com.png"
+      },
+      {
         "name": "Google 翻译",
         "desc": "记录美好生活",
         "url": "https://translate.google.com/",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/translate.google.com.ico"
       },
       {
+        "name": "微信公众平台",
+        "desc": "微信公众号、小程序开发者平台",
+        "url": "https://mp.weixin.qq.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/mp.weixin.ico"
+      },
+      {
         "name": "微信读书",
         "desc": "记录美好生活",
         "url": "https://weread.qq.com/",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/weread.qq.com.ico"
+      },
+      {
+        "name": "StackOverflow",
+        "desc": "开发人员学习、分享和发展事业的地方",
+        "url": "https://stackoverflow.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/stackoverflow.com.png"
+      },
+      {
+        "name": "GitHub",
+        "desc": "记录美好生活",
+        "url": "https://github.com/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/github.com.png"
       },
       {
         "name": "微信文件助手",
@@ -37,18 +79,6 @@
         "desc": "将图像转换为提示词",
         "url": "https://imageprompt.org/",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/imageprompt.org.ico"
-      },
-      {
-        "name": "图片去除背景",
-        "desc": "无需其他操作，自动去除图片背景",
-        "url": "https://www.remove.bg/zh",
-        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/remove.bg.png"
-      },
-      {
-        "name": "AI智能图片放大",
-        "desc": "使用人工智能无损放大图片",
-        "url": "https://bigjpg.com/zh",
-        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/bigjpg.com.png"
       }
     ]
   },

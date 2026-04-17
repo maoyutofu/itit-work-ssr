@@ -26,6 +26,8 @@ pub fn shell(options: LeptosOptions) -> impl IntoView {
                     s.parentNode.insertBefore(hm, s);
                     })();
                 </script>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5471548196922790"
+     crossorigin="anonymous"></script>
             </head>
             <body class="bg-gray-100 mx-5 lg:mx-32">
                 <App/>
