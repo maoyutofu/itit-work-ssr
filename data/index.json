@@ -67,6 +67,12 @@
         "desc": "在线编辑/预览 Markdown",
         "url": "http://itit.work/md",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/markdown.svg"
+      },
+      {
+        "name": "网站图标生成器",
+        "desc": "在所有浏览器上呈现完美图标",
+        "url": "https://realfavicongenerator.net/",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/realfavicongenerator.net.ico"
       }
     ]
   },
