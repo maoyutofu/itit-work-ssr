@@ -111,7 +111,7 @@
       },
       {
         "name": "Base64",
-        "desc": "在线编码解码",
+        "desc": "在线编/解码",
         "url": "/base64",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/base64.png"
       },
@@ -162,6 +162,12 @@
         "desc": "文件 MD5 哈希计算",
         "url": "/file-hash",
         "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/file_hash.png"
+      },
+      {
+        "name": "恺撒密码",
+        "desc": "在线加/解密",
+        "url": "/caesar",
+        "icon": "https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/caesar.svg"
       }
     ]
   },

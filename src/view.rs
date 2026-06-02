@@ -16,6 +16,7 @@ mod file_hash;
 mod ai;
 mod wx;
 mod md;
+mod caesar;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -35,3 +36,4 @@ pub use file_hash::FileHash;
 pub use ai::Ai;
 pub use wx::Wx;
 pub use md::Md;
+pub use caesar::Caesar;

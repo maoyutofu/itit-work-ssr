@@ -26,3 +26,27 @@ pub fn get_items(json_str: &str) -> Vec<Item> {
         Err(_err) => return Vec::new(),
     }
 }
+
+/// 凯撒密码加密/解密
+///
+/// # 参数
+/// * `text` - 输入文本
+/// * `shift` - 偏移量（正数加密，负数解密）
+///
+/// # 返回
+/// 加密或解密后的字符串
+pub fn caesar_cipher(text: &str, shift: i32) -> String {
+    text.chars()
+        .map(|c| {
+            if c.is_ascii_uppercase() {
+                let base = b'A' as i32;
+                (((c as i32 - base + shift).rem_euclid(26)) + base) as u8 as char
+            } else if c.is_ascii_lowercase() {
+                let base = b'a' as i32;
+                (((c as i32 - base + shift).rem_euclid(26)) + base) as u8 as char
+            } else {
+                c
+            }
+        })
+        .collect()
+}
