@@ -17,6 +17,7 @@ mod ai;
 mod wx;
 mod md;
 mod caesar;
+mod imgb64;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -37,3 +38,4 @@ pub use ai::Ai;
 pub use wx::Wx;
 pub use md::Md;
 pub use caesar::Caesar;
+pub use imgb64::ImgBase64;
