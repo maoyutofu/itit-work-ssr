@@ -101,9 +101,19 @@ pub fn ImgBase64() -> impl IntoView {
     };
 
     let preview = move |_| {
+        set_result_url.set(None);
+        set_msg.set(None);
         if !result.get().is_empty() {
-            set_result_url.set(Some(format!("<img src='{}' />", result.get())));
+            if result.get().starts_with("data:image/") {
+                set_result_url.set(Some(format!("<img src='{}' />", result.get())));
+            } else {
+                set_msg.set(Some("Invalid Data URL, e.g., data:image/jpg;base64,iVBORellipsis...==".to_string()));
+            }
         }
+    };
+
+    let input_result = move |ev| {
+        set_result.set(event_target_value(&ev));
     };
 
     view! {
@@ -111,8 +121,8 @@ pub fn ImgBase64() -> impl IntoView {
         <section class="bg-white shadow-md p-6">
             <h2>"图片 Base64（支持 JPG / PNG / GIF / SVG / WEBP，单图上传）"</h2>
             <input on:change=input_file class="block w-full text-sm text-gray-900 border border-gray-300 cursor-pointer bg-gray-50" id="file_input" type="file" />
-            <label for="result" class="block mt-5 mb-2 text-sm font-medium text-gray-900">结果</label>
-            <textarea id="result" rows="11" readonly class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500" prop:value=result></textarea>
+            <label for="result" class="block mt-5 mb-2 text-sm font-medium text-gray-900">"结果（可以直接粘贴 base64 预览）"</label>
+            <textarea id="result" on:input=input_result rows="11" class="w-full border border-gray-300 p-2 focus:outline-none focus:border-blue-500" prop:value=result></textarea>
             <div class="flex mt-5 justify-end gap-1">
                <button on:click=preview type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">预览</button>
             </div>
